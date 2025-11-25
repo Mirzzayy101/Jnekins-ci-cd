@@ -11,7 +11,7 @@ pipeline {
         stage('Build & Test') {
             steps {
                 // Placeholder for a real build command (e.g., 'mvn clean install')
-                sh 'echo "CI Build Successful!"' 
+                sh 'echo "CI Build Successful!YAYYY!!!!!"' 
                 // Placeholder for a real test command (e.g., 'npm test')
                 sh 'echo "Unit tests passed! and new web hook!!!"' 
             }
